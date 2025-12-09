@@ -1,0 +1,1001 @@
+method,url,label
+GET,/admin,Normal
+PUT,/home,Normal
+PUT,/admin,Normal
+GET,/contact?id=586,Normal
+GET,/home?q=../../etc/passwd,Suspicious
+PUT,/home,Normal
+GET,/contact?id=214,Normal
+POST,/contact,Normal
+DELETE,/admin,Normal
+GET,/contact?id=859,Normal
+GET,/admin?id=835,Normal
+GET,/home?q=<script>alert(1)</script>,Suspicious
+GET,/about,Normal
+GET,/login?id=557,Normal
+PUT,/contact?q=<script>alert(1)</script>,Suspicious
+PUT,/admin?id=827,Normal
+DELETE,/about,Normal
+GET,/login?q=' OR '1'='1,Suspicious
+GET,/admin,Normal
+POST,/admin,Normal
+GET,/about?q=cat /etc/passwd,Suspicious
+POST,/api/data,Normal
+PUT,/admin,Normal
+POST,/home?id=306,Normal
+POST,/admin,Normal
+GET,/home?id=227,Normal
+PUT,/api/data,Normal
+PUT,/api/data,Normal
+DELETE,/contact?id=571,Normal
+DELETE,/admin?id=941,Normal
+POST,/home?id=96,Normal
+PUT,/admin,Normal
+POST,/login,Normal
+GET,/admin,Normal
+POST,/admin?q=' OR '1'='1,Suspicious
+PUT,/contact?id=932,Normal
+DELETE,/login,Normal
+DELETE,/admin,Normal
+PUT,/login?id=146,Normal
+PUT,/contact?id=669,Normal
+PUT,/home?q=../../etc/passwd,Suspicious
+DELETE,/about,Normal
+GET,/api/data?id=750,Normal
+PUT,/login,Normal
+PUT,/api/data?q=DROP TABLE users,Suspicious
+GET,/api/data,Normal
+POST,/about?id=792,Normal
+PUT,/login?q=cat /etc/passwd,Suspicious
+GET,/login?q=' OR '1'='1,Suspicious
+POST,/api/data?q=cat /etc/passwd,Suspicious
+DELETE,/home?id=634,Normal
+POST,/contact?q=cat /etc/passwd,Suspicious
+PUT,/home,Normal
+DELETE,/about,Normal
+PUT,/home?q=cat /etc/passwd,Suspicious
+POST,/about,Normal
+PUT,/login,Normal
+PUT,/login?id=120,Normal
+GET,/home,Normal
+POST,/login,Normal
+POST,/about,Normal
+POST,/home?id=214,Normal
+PUT,/login,Normal
+GET,/admin,Normal
+PUT,/contact,Normal
+PUT,/api/data?q=DROP TABLE users,Suspicious
+POST,/contact,Normal
+DELETE,/admin?id=829,Normal
+DELETE,/login?q=DROP TABLE users,Suspicious
+GET,/login?q=DROP TABLE users,Suspicious
+PUT,/home,Normal
+DELETE,/home?q=<script>alert(1)</script>,Suspicious
+POST,/about?id=221,Normal
+DELETE,/login,Normal
+POST,/admin,Normal
+POST,/api/data,Normal
+PUT,/contact,Normal
+POST,/home?id=891,Normal
+POST,/admin?id=959,Normal
+GET,/login?id=391,Normal
+PUT,/about,Normal
+DELETE,/home?id=419,Normal
+PUT,/home,Normal
+DELETE,/admin,Normal
+POST,/admin,Normal
+PUT,/home,Normal
+POST,/home?q=DROP TABLE users,Suspicious
+GET,/home?id=276,Normal
+POST,/admin?id=837,Normal
+GET,/login?id=233,Normal
+GET,/api/data?id=238,Normal
+POST,/contact?q=DROP TABLE users,Suspicious
+POST,/api/data?id=940,Normal
+GET,/contact,Normal
+GET,/contact,Normal
+PUT,/contact,Normal
+GET,/contact,Normal
+DELETE,/login?q=<script>alert(1)</script>,Suspicious
+GET,/about?id=998,Normal
+GET,/login,Normal
+PUT,/home?q=<script>alert(1)</script>,Suspicious
+POST,/admin,Normal
+POST,/about,Normal
+PUT,/contact?q=cat /etc/passwd,Suspicious
+POST,/about,Normal
+POST,/contact,Normal
+GET,/api/data,Normal
+GET,/api/data?q=DROP TABLE users,Suspicious
+GET,/home?q=cat /etc/passwd,Suspicious
+PUT,/contact?id=356,Normal
+DELETE,/about?q=<script>alert(1)</script>,Suspicious
+PUT,/admin,Normal
+POST,/about,Normal
+POST,/admin?id=277,Normal
+DELETE,/api/data?id=946,Normal
+PUT,/contact,Normal
+PUT,/about,Normal
+POST,/login?id=407,Normal
+POST,/api/data,Normal
+POST,/home?id=736,Normal
+DELETE,/admin,Normal
+PUT,/login?q=cat /etc/passwd,Suspicious
+PUT,/login?q=cat /etc/passwd,Suspicious
+PUT,/contact?q=cat /etc/passwd,Suspicious
+PUT,/admin?q=' OR '1'='1,Suspicious
+GET,/about?q=../../etc/passwd,Suspicious
+PUT,/admin,Normal
+POST,/login,Normal
+POST,/home?id=433,Normal
+DELETE,/about,Normal
+DELETE,/login,Normal
+POST,/contact?q=../../etc/passwd,Suspicious
+DELETE,/home?id=423,Normal
+POST,/api/data?id=721,Normal
+GET,/contact,Normal
+POST,/api/data?id=781,Normal
+PUT,/about,Normal
+GET,/about,Normal
+POST,/contact?id=700,Normal
+GET,/login,Normal
+POST,/contact?q=../../etc/passwd,Suspicious
+POST,/contact?id=79,Normal
+GET,/api/data,Normal
+GET,/login,Normal
+PUT,/contact?id=452,Normal
+GET,/login?q=<script>alert(1)</script>,Suspicious
+DELETE,/api/data?q=<script>alert(1)</script>,Suspicious
+DELETE,/about?q=DROP TABLE users,Suspicious
+DELETE,/login,Normal
+PUT,/login,Normal
+POST,/login?q=cat /etc/passwd,Suspicious
+GET,/contact,Normal
+GET,/admin?id=975,Normal
+DELETE,/api/data?id=988,Normal
+PUT,/home?q=<script>alert(1)</script>,Suspicious
+POST,/admin?id=323,Normal
+GET,/home,Normal
+DELETE,/login?id=541,Normal
+DELETE,/home,Normal
+DELETE,/login?q=' OR '1'='1,Suspicious
+GET,/login?q=DROP TABLE users,Suspicious
+DELETE,/about?id=572,Normal
+POST,/admin?id=194,Normal
+DELETE,/admin,Normal
+POST,/about,Normal
+GET,/api/data,Normal
+POST,/api/data?q=cat /etc/passwd,Suspicious
+PUT,/contact?q=<script>alert(1)</script>,Suspicious
+PUT,/home,Normal
+GET,/about,Normal
+DELETE,/api/data,Normal
+DELETE,/home?id=115,Normal
+GET,/contact,Normal
+PUT,/login,Normal
+POST,/api/data,Normal
+GET,/about,Normal
+POST,/contact,Normal
+GET,/contact,Normal
+DELETE,/login?id=400,Normal
+DELETE,/login,Normal
+GET,/admin,Normal
+PUT,/contact?id=771,Normal
+PUT,/about?q=../../etc/passwd,Suspicious
+PUT,/home?id=731,Normal
+POST,/admin,Normal
+GET,/contact,Normal
+PUT,/home,Normal
+GET,/contact?id=120,Normal
+PUT,/login,Normal
+GET,/home?q=<script>alert(1)</script>,Suspicious
+POST,/about?q=' OR '1'='1,Suspicious
+DELETE,/about?id=369,Normal
+POST,/contact,Normal
+DELETE,/admin?q=DROP TABLE users,Suspicious
+DELETE,/contact?id=89,Normal
+GET,/contact?id=561,Normal
+POST,/login,Normal
+GET,/home?id=623,Normal
+POST,/api/data,Normal
+POST,/admin,Normal
+PUT,/about,Normal
+GET,/about,Normal
+GET,/home,Normal
+GET,/home,Normal
+POST,/about?id=199,Normal
+DELETE,/api/data?id=402,Normal
+PUT,/admin?id=847,Normal
+GET,/contact,Normal
+POST,/about,Normal
+POST,/admin,Normal
+DELETE,/api/data,Normal
+PUT,/about?q=' OR '1'='1,Suspicious
+DELETE,/admin?id=411,Normal
+DELETE,/api/data?id=382,Normal
+PUT,/login?id=302,Normal
+DELETE,/admin?id=461,Normal
+DELETE,/api/data?q=' OR '1'='1,Suspicious
+POST,/contact?id=971,Normal
+PUT,/home,Normal
+POST,/api/data?q=cat /etc/passwd,Suspicious
+GET,/api/data,Normal
+POST,/contact?q=<script>alert(1)</script>,Suspicious
+POST,/home,Normal
+DELETE,/contact?id=177,Normal
+PUT,/admin,Normal
+POST,/login,Normal
+POST,/about,Normal
+DELETE,/contact?id=834,Normal
+DELETE,/home,Normal
+GET,/home,Normal
+PUT,/contact?q=cat /etc/passwd,Suspicious
+PUT,/login?id=461,Normal
+PUT,/contact,Normal
+PUT,/login?id=329,Normal
+POST,/contact?q=' OR '1'='1,Suspicious
+POST,/home,Normal
+PUT,/login,Normal
+POST,/login,Normal
+DELETE,/contact,Normal
+POST,/admin?q=../../etc/passwd,Suspicious
+GET,/admin?q=DROP TABLE users,Suspicious
+DELETE,/home?id=528,Normal
+PUT,/home,Normal
+PUT,/api/data,Normal
+PUT,/login,Normal
+PUT,/about,Normal
+PUT,/api/data?q=cat /etc/passwd,Suspicious
+PUT,/admin,Normal
+GET,/contact,Normal
+PUT,/contact,Normal
+DELETE,/api/data,Normal
+PUT,/api/data?id=316,Normal
+PUT,/login,Normal
+PUT,/about?id=260,Normal
+PUT,/api/data,Normal
+PUT,/login?q=<script>alert(1)</script>,Suspicious
+DELETE,/login,Normal
+PUT,/login,Normal
+PUT,/admin?q=cat /etc/passwd,Suspicious
+GET,/about?id=144,Normal
+POST,/login?id=265,Normal
+PUT,/api/data,Normal
+PUT,/about,Normal
+GET,/api/data,Normal
+GET,/contact,Normal
+PUT,/home,Normal
+POST,/home,Normal
+DELETE,/api/data?id=932,Normal
+DELETE,/admin,Normal
+GET,/about,Normal
+POST,/admin,Normal
+PUT,/about,Normal
+PUT,/api/data,Normal
+GET,/admin?q=<script>alert(1)</script>,Suspicious
+GET,/contact,Normal
+POST,/about?q=DROP TABLE users,Suspicious
+GET,/login?id=488,Normal
+GET,/about,Normal
+POST,/admin,Normal
+DELETE,/api/data,Normal
+POST,/about?q=cat /etc/passwd,Suspicious
+GET,/contact,Normal
+DELETE,/about,Normal
+PUT,/contact?id=376,Normal
+DELETE,/login?id=949,Normal
+POST,/api/data?q=' OR '1'='1,Suspicious
+PUT,/contact,Normal
+GET,/login?id=924,Normal
+PUT,/home?q=DROP TABLE users,Suspicious
+POST,/api/data?q=DROP TABLE users,Suspicious
+PUT,/admin?q=DROP TABLE users,Suspicious
+GET,/admin,Normal
+DELETE,/contact?id=540,Normal
+GET,/login?id=128,Normal
+PUT,/admin?q=../../etc/passwd,Suspicious
+GET,/api/data,Normal
+POST,/home?id=453,Normal
+POST,/home,Normal
+PUT,/api/data,Normal
+PUT,/admin?id=573,Normal
+PUT,/api/data,Normal
+GET,/about?q=<script>alert(1)</script>,Suspicious
+GET,/admin,Normal
+POST,/login,Normal
+GET,/login?id=234,Normal
+GET,/contact,Normal
+GET,/api/data?q=' OR '1'='1,Suspicious
+DELETE,/contact,Normal
+PUT,/admin,Normal
+DELETE,/api/data,Normal
+POST,/about,Normal
+POST,/api/data?id=429,Normal
+DELETE,/home,Normal
+GET,/about,Normal
+PUT,/home,Normal
+GET,/about?q=DROP TABLE users,Suspicious
+GET,/contact,Normal
+DELETE,/admin?q=' OR '1'='1,Suspicious
+POST,/contact,Normal
+POST,/contact,Normal
+GET,/admin?id=607,Normal
+PUT,/contact,Normal
+PUT,/about,Normal
+GET,/home,Normal
+POST,/home,Normal
+PUT,/login,Normal
+DELETE,/contact,Normal
+PUT,/api/data,Normal
+POST,/home?q=DROP TABLE users,Suspicious
+DELETE,/login,Normal
+PUT,/home?q=../../etc/passwd,Suspicious
+POST,/api/data,Normal
+PUT,/contact?q=../../etc/passwd,Suspicious
+DELETE,/login?id=899,Normal
+PUT,/about,Normal
+DELETE,/about?id=602,Normal
+DELETE,/login?id=708,Normal
+DELETE,/api/data,Normal
+POST,/api/data,Normal
+DELETE,/contact?q=../../etc/passwd,Suspicious
+GET,/login?id=473,Normal
+PUT,/contact,Normal
+PUT,/contact?id=803,Normal
+GET,/home?id=18,Normal
+GET,/login?q=cat /etc/passwd,Suspicious
+PUT,/login?q=../../etc/passwd,Suspicious
+PUT,/about,Normal
+POST,/api/data?id=456,Normal
+DELETE,/login,Normal
+PUT,/home?q=<script>alert(1)</script>,Suspicious
+DELETE,/admin,Normal
+PUT,/api/data,Normal
+GET,/api/data,Normal
+POST,/contact,Normal
+GET,/login?id=255,Normal
+PUT,/about?id=414,Normal
+GET,/admin,Normal
+PUT,/home,Normal
+PUT,/about?id=219,Normal
+PUT,/contact?q=../../etc/passwd,Suspicious
+POST,/api/data,Normal
+PUT,/about?q=../../etc/passwd,Suspicious
+PUT,/contact,Normal
+GET,/login,Normal
+GET,/login,Normal
+GET,/contact,Normal
+PUT,/api/data?id=454,Normal
+POST,/home?q=' OR '1'='1,Suspicious
+DELETE,/login?q=cat /etc/passwd,Suspicious
+PUT,/home,Normal
+PUT,/api/data,Normal
+GET,/api/data?id=518,Normal
+DELETE,/api/data?q=DROP TABLE users,Suspicious
+POST,/api/data,Normal
+GET,/admin,Normal
+PUT,/home,Normal
+DELETE,/login,Normal
+GET,/home,Normal
+POST,/api/data?id=974,Normal
+POST,/admin,Normal
+GET,/home,Normal
+GET,/about?q=cat /etc/passwd,Suspicious
+DELETE,/contact?id=659,Normal
+PUT,/about,Normal
+PUT,/contact,Normal
+DELETE,/contact?q=<script>alert(1)</script>,Suspicious
+POST,/about?id=380,Normal
+PUT,/home,Normal
+DELETE,/home?q=' OR '1'='1,Suspicious
+DELETE,/api/data?q=<script>alert(1)</script>,Suspicious
+POST,/home,Normal
+PUT,/about,Normal
+PUT,/contact,Normal
+POST,/home,Normal
+PUT,/admin,Normal
+POST,/admin?q=cat /etc/passwd,Suspicious
+GET,/admin,Normal
+POST,/contact,Normal
+GET,/home?q=DROP TABLE users,Suspicious
+GET,/home?q=<script>alert(1)</script>,Suspicious
+DELETE,/contact,Normal
+PUT,/api/data,Normal
+DELETE,/about,Normal
+GET,/contact,Normal
+DELETE,/login,Normal
+DELETE,/home?id=997,Normal
+POST,/about?id=856,Normal
+POST,/home?q=' OR '1'='1,Suspicious
+GET,/admin?id=612,Normal
+PUT,/about,Normal
+GET,/about,Normal
+POST,/about?q=<script>alert(1)</script>,Suspicious
+PUT,/about?id=574,Normal
+POST,/api/data?id=889,Normal
+POST,/api/data?id=820,Normal
+DELETE,/about,Normal
+PUT,/home,Normal
+GET,/api/data,Normal
+DELETE,/about,Normal
+POST,/contact,Normal
+POST,/admin,Normal
+PUT,/api/data?id=525,Normal
+DELETE,/admin,Normal
+PUT,/api/data,Normal
+GET,/admin?q=../../etc/passwd,Suspicious
+PUT,/contact,Normal
+GET,/home?q=<script>alert(1)</script>,Suspicious
+POST,/home,Normal
+POST,/api/data?id=844,Normal
+PUT,/login,Normal
+POST,/api/data,Normal
+POST,/home,Normal
+DELETE,/login,Normal
+GET,/home?q=<script>alert(1)</script>,Suspicious
+DELETE,/admin,Normal
+PUT,/api/data,Normal
+PUT,/contact,Normal
+POST,/login,Normal
+GET,/api/data,Normal
+DELETE,/login,Normal
+PUT,/login,Normal
+PUT,/admin,Normal
+DELETE,/admin,Normal
+DELETE,/api/data?q=<script>alert(1)</script>,Suspicious
+POST,/login,Normal
+POST,/about?q=cat /etc/passwd,Suspicious
+PUT,/home,Normal
+PUT,/contact?id=658,Normal
+GET,/about?q=cat /etc/passwd,Suspicious
+GET,/home,Normal
+GET,/login,Normal
+DELETE,/about,Normal
+POST,/home?q=<script>alert(1)</script>,Suspicious
+POST,/api/data?q=cat /etc/passwd,Suspicious
+PUT,/admin?q=../../etc/passwd,Suspicious
+DELETE,/contact,Normal
+GET,/about,Normal
+PUT,/api/data?q=<script>alert(1)</script>,Suspicious
+POST,/api/data,Normal
+DELETE,/contact?q=cat /etc/passwd,Suspicious
+GET,/api/data,Normal
+PUT,/login,Normal
+DELETE,/login?q=DROP TABLE users,Suspicious
+DELETE,/api/data,Normal
+PUT,/home,Normal
+POST,/contact,Normal
+DELETE,/api/data,Normal
+GET,/contact?q=../../etc/passwd,Suspicious
+PUT,/api/data?q=DROP TABLE users,Suspicious
+DELETE,/admin,Normal
+PUT,/home,Normal
+PUT,/admin?q=cat /etc/passwd,Suspicious
+PUT,/home,Normal
+POST,/login,Normal
+PUT,/contact,Normal
+POST,/login,Normal
+DELETE,/admin?id=440,Normal
+PUT,/login,Normal
+GET,/login,Normal
+GET,/login?id=579,Normal
+POST,/home,Normal
+GET,/about,Normal
+POST,/home?q=' OR '1'='1,Suspicious
+POST,/admin?q=<script>alert(1)</script>,Suspicious
+GET,/about,Normal
+PUT,/api/data,Normal
+GET,/home?q=' OR '1'='1,Suspicious
+POST,/contact,Normal
+PUT,/about?q=' OR '1'='1,Suspicious
+GET,/about,Normal
+PUT,/about?id=239,Normal
+GET,/home?id=140,Normal
+POST,/home?id=933,Normal
+POST,/login,Normal
+DELETE,/about?q=../../etc/passwd,Suspicious
+PUT,/contact,Normal
+POST,/api/data,Normal
+GET,/home,Normal
+GET,/home,Normal
+PUT,/contact,Normal
+PUT,/login?q=cat /etc/passwd,Suspicious
+DELETE,/login,Normal
+POST,/api/data,Normal
+PUT,/admin,Normal
+POST,/login?id=886,Normal
+GET,/home,Normal
+POST,/home,Normal
+POST,/contact,Normal
+DELETE,/home,Normal
+POST,/api/data,Normal
+GET,/login,Normal
+DELETE,/contact,Normal
+DELETE,/api/data?q=' OR '1'='1,Suspicious
+POST,/admin?id=872,Normal
+POST,/contact?id=510,Normal
+DELETE,/api/data,Normal
+POST,/login,Normal
+PUT,/admin?id=542,Normal
+PUT,/home,Normal
+GET,/about?id=861,Normal
+GET,/about?id=729,Normal
+DELETE,/home?id=170,Normal
+GET,/about,Normal
+PUT,/contact?id=783,Normal
+GET,/about?q=' OR '1'='1,Suspicious
+POST,/contact,Normal
+DELETE,/login?q=cat /etc/passwd,Suspicious
+POST,/contact,Normal
+PUT,/home?q=<script>alert(1)</script>,Suspicious
+PUT,/api/data?q=DROP TABLE users,Suspicious
+PUT,/home?q=' OR '1'='1,Suspicious
+DELETE,/api/data,Normal
+GET,/about,Normal
+POST,/about?id=756,Normal
+PUT,/admin?q=cat /etc/passwd,Suspicious
+DELETE,/contact?id=31,Normal
+GET,/contact,Normal
+PUT,/api/data,Normal
+GET,/api/data?q=cat /etc/passwd,Suspicious
+POST,/home,Normal
+GET,/home,Normal
+PUT,/login?id=806,Normal
+POST,/home,Normal
+DELETE,/api/data?q=../../etc/passwd,Suspicious
+POST,/contact,Normal
+POST,/login?q=cat /etc/passwd,Suspicious
+POST,/api/data?id=619,Normal
+POST,/contact?q=DROP TABLE users,Suspicious
+POST,/about,Normal
+PUT,/api/data?id=383,Normal
+POST,/about?id=486,Normal
+PUT,/contact?id=42,Normal
+GET,/about,Normal
+PUT,/admin,Normal
+POST,/contact,Normal
+POST,/login?id=437,Normal
+PUT,/contact?q=../../etc/passwd,Suspicious
+POST,/about?id=399,Normal
+GET,/login?id=633,Normal
+PUT,/about?id=871,Normal
+DELETE,/admin,Normal
+POST,/home,Normal
+PUT,/admin?q=<script>alert(1)</script>,Suspicious
+DELETE,/contact,Normal
+PUT,/about?q=../../etc/passwd,Suspicious
+DELETE,/about,Normal
+PUT,/home?id=586,Normal
+GET,/home,Normal
+PUT,/about,Normal
+DELETE,/api/data?id=311,Normal
+POST,/login,Normal
+PUT,/contact,Normal
+GET,/home?id=670,Normal
+DELETE,/contact?q=cat /etc/passwd,Suspicious
+DELETE,/about?q=' OR '1'='1,Suspicious
+POST,/login?id=320,Normal
+PUT,/contact?id=144,Normal
+DELETE,/contact,Normal
+GET,/api/data,Normal
+POST,/login,Normal
+GET,/admin,Normal
+PUT,/home,Normal
+DELETE,/api/data?q=DROP TABLE users,Suspicious
+PUT,/api/data?q=cat /etc/passwd,Suspicious
+DELETE,/home?id=221,Normal
+POST,/contact,Normal
+DELETE,/api/data,Normal
+GET,/contact?q=<script>alert(1)</script>,Suspicious
+POST,/api/data?q=<script>alert(1)</script>,Suspicious
+POST,/home,Normal
+GET,/home,Normal
+PUT,/admin?q=../../etc/passwd,Suspicious
+GET,/about,Normal
+DELETE,/home?id=128,Normal
+GET,/about?id=876,Normal
+DELETE,/api/data?id=101,Normal
+DELETE,/login,Normal
+PUT,/login?id=238,Normal
+PUT,/about,Normal
+POST,/home?id=521,Normal
+GET,/admin,Normal
+GET,/login?id=45,Normal
+PUT,/admin?q=DROP TABLE users,Suspicious
+GET,/about?id=27,Normal
+DELETE,/login,Normal
+PUT,/home,Normal
+POST,/admin,Normal
+PUT,/login?q=DROP TABLE users,Suspicious
+DELETE,/api/data,Normal
+POST,/about?id=252,Normal
+GET,/api/data,Normal
+GET,/about?id=70,Normal
+PUT,/login,Normal
+POST,/admin,Normal
+POST,/admin,Normal
+GET,/login,Normal
+POST,/admin?q=../../etc/passwd,Suspicious
+POST,/about?q=../../etc/passwd,Suspicious
+GET,/login?q=<script>alert(1)</script>,Suspicious
+POST,/api/data,Normal
+DELETE,/about,Normal
+POST,/about?q=cat /etc/passwd,Suspicious
+POST,/home,Normal
+GET,/login,Normal
+DELETE,/admin,Normal
+DELETE,/admin?q=<script>alert(1)</script>,Suspicious
+GET,/login,Normal
+PUT,/admin?q=../../etc/passwd,Suspicious
+GET,/home,Normal
+DELETE,/login,Normal
+DELETE,/login,Normal
+POST,/api/data,Normal
+POST,/admin?q=' OR '1'='1,Suspicious
+PUT,/login,Normal
+GET,/contact?id=31,Normal
+PUT,/about,Normal
+PUT,/api/data,Normal
+DELETE,/about,Normal
+DELETE,/api/data,Normal
+POST,/about?q=../../etc/passwd,Suspicious
+DELETE,/login?q=DROP TABLE users,Suspicious
+DELETE,/api/data,Normal
+POST,/api/data,Normal
+DELETE,/admin,Normal
+DELETE,/admin?q=../../etc/passwd,Suspicious
+POST,/admin,Normal
+DELETE,/login?id=975,Normal
+DELETE,/home,Normal
+DELETE,/contact,Normal
+DELETE,/contact?q=<script>alert(1)</script>,Suspicious
+PUT,/admin?q=DROP TABLE users,Suspicious
+GET,/api/data?q=cat /etc/passwd,Suspicious
+POST,/admin,Normal
+PUT,/home?id=590,Normal
+PUT,/admin,Normal
+POST,/api/data?id=19,Normal
+PUT,/contact?q=../../etc/passwd,Suspicious
+PUT,/home?q=' OR '1'='1,Suspicious
+DELETE,/admin?q=<script>alert(1)</script>,Suspicious
+PUT,/login,Normal
+POST,/admin?id=407,Normal
+PUT,/contact?id=1000,Normal
+POST,/login?id=589,Normal
+GET,/contact?id=396,Normal
+PUT,/api/data?id=928,Normal
+GET,/about?q=' OR '1'='1,Suspicious
+POST,/about?id=421,Normal
+GET,/contact,Normal
+DELETE,/api/data,Normal
+DELETE,/home?id=205,Normal
+POST,/api/data,Normal
+POST,/contact?q=<script>alert(1)</script>,Suspicious
+POST,/home?q=<script>alert(1)</script>,Suspicious
+DELETE,/admin,Normal
+GET,/api/data?id=512,Normal
+PUT,/home?id=369,Normal
+DELETE,/login?q=cat /etc/passwd,Suspicious
+DELETE,/about,Normal
+DELETE,/about,Normal
+GET,/login,Normal
+POST,/login?id=985,Normal
+PUT,/login,Normal
+DELETE,/api/data?id=638,Normal
+GET,/login?id=254,Normal
+DELETE,/about,Normal
+DELETE,/contact?q=' OR '1'='1,Suspicious
+PUT,/home,Normal
+DELETE,/about?q=<script>alert(1)</script>,Suspicious
+PUT,/login,Normal
+PUT,/contact?q=../../etc/passwd,Suspicious
+DELETE,/login,Normal
+POST,/about,Normal
+DELETE,/login,Normal
+POST,/about,Normal
+GET,/login?id=948,Normal
+GET,/login?id=73,Normal
+DELETE,/contact,Normal
+POST,/api/data?q=../../etc/passwd,Suspicious
+GET,/contact?q=cat /etc/passwd,Suspicious
+GET,/contact,Normal
+DELETE,/api/data?q=' OR '1'='1,Suspicious
+GET,/contact,Normal
+GET,/home,Normal
+GET,/admin?q=DROP TABLE users,Suspicious
+GET,/login,Normal
+GET,/login?id=467,Normal
+PUT,/contact?q=<script>alert(1)</script>,Suspicious
+DELETE,/contact,Normal
+PUT,/about,Normal
+POST,/contact?id=761,Normal
+GET,/admin?id=300,Normal
+PUT,/admin,Normal
+POST,/home,Normal
+PUT,/about?id=348,Normal
+POST,/home,Normal
+GET,/home,Normal
+GET,/api/data,Normal
+PUT,/home,Normal
+PUT,/contact?id=126,Normal
+GET,/contact,Normal
+POST,/contact?q=cat /etc/passwd,Suspicious
+POST,/home?q=cat /etc/passwd,Suspicious
+DELETE,/contact?id=801,Normal
+PUT,/about,Normal
+PUT,/admin,Normal
+GET,/home?q=' OR '1'='1,Suspicious
+POST,/contact,Normal
+PUT,/contact,Normal
+DELETE,/home?id=736,Normal
+POST,/admin,Normal
+DELETE,/login,Normal
+POST,/about,Normal
+POST,/api/data,Normal
+PUT,/about?q=../../etc/passwd,Suspicious
+POST,/api/data?id=4,Normal
+POST,/login,Normal
+GET,/contact,Normal
+PUT,/login?id=340,Normal
+DELETE,/api/data,Normal
+PUT,/contact,Normal
+DELETE,/login,Normal
+PUT,/about?id=487,Normal
+PUT,/api/data?q=DROP TABLE users,Suspicious
+DELETE,/contact,Normal
+PUT,/login?id=520,Normal
+DELETE,/home,Normal
+POST,/admin?id=270,Normal
+GET,/home?id=149,Normal
+DELETE,/admin,Normal
+DELETE,/contact?id=168,Normal
+GET,/home,Normal
+DELETE,/contact,Normal
+POST,/login?q=' OR '1'='1,Suspicious
+DELETE,/contact,Normal
+POST,/admin?q=cat /etc/passwd,Suspicious
+PUT,/api/data?id=215,Normal
+POST,/login?id=994,Normal
+DELETE,/contact?q=<script>alert(1)</script>,Suspicious
+DELETE,/home?q=DROP TABLE users,Suspicious
+GET,/admin?id=671,Normal
+POST,/login,Normal
+PUT,/home?id=795,Normal
+DELETE,/admin,Normal
+PUT,/login,Normal
+GET,/contact?q=<script>alert(1)</script>,Suspicious
+PUT,/contact,Normal
+DELETE,/contact?id=256,Normal
+DELETE,/about?id=508,Normal
+GET,/home?id=429,Normal
+GET,/about?q=' OR '1'='1,Suspicious
+PUT,/api/data,Normal
+DELETE,/home?id=124,Normal
+DELETE,/admin?id=14,Normal
+GET,/admin?q=cat /etc/passwd,Suspicious
+DELETE,/admin,Normal
+DELETE,/about,Normal
+GET,/api/data?q=../../etc/passwd,Suspicious
+DELETE,/admin,Normal
+GET,/api/data,Normal
+DELETE,/contact,Normal
+PUT,/about,Normal
+GET,/home?id=598,Normal
+DELETE,/login,Normal
+GET,/admin,Normal
+PUT,/login?id=907,Normal
+DELETE,/login?q=DROP TABLE users,Suspicious
+PUT,/admin,Normal
+DELETE,/admin,Normal
+POST,/contact,Normal
+POST,/about?q=' OR '1'='1,Suspicious
+GET,/home,Normal
+GET,/home,Normal
+POST,/admin,Normal
+DELETE,/home?q=DROP TABLE users,Suspicious
+GET,/contact?id=107,Normal
+GET,/about,Normal
+DELETE,/about?id=732,Normal
+DELETE,/contact?q=DROP TABLE users,Suspicious
+DELETE,/admin,Normal
+PUT,/about,Normal
+POST,/api/data,Normal
+GET,/api/data?q=../../etc/passwd,Suspicious
+GET,/api/data,Normal
+GET,/login?q=cat /etc/passwd,Suspicious
+GET,/contact,Normal
+GET,/admin,Normal
+POST,/admin,Normal
+PUT,/api/data?id=180,Normal
+PUT,/admin?q=' OR '1'='1,Suspicious
+DELETE,/admin,Normal
+DELETE,/about?q=cat /etc/passwd,Suspicious
+PUT,/login?q=../../etc/passwd,Suspicious
+POST,/api/data,Normal
+DELETE,/admin?id=774,Normal
+PUT,/admin,Normal
+POST,/login,Normal
+GET,/admin?id=633,Normal
+DELETE,/login,Normal
+POST,/login,Normal
+DELETE,/admin,Normal
+PUT,/home?id=48,Normal
+POST,/home,Normal
+DELETE,/login?q=DROP TABLE users,Suspicious
+PUT,/about,Normal
+PUT,/admin?q=cat /etc/passwd,Suspicious
+DELETE,/login?id=102,Normal
+POST,/login?id=694,Normal
+DELETE,/api/data,Normal
+PUT,/api/data,Normal
+PUT,/admin?q=../../etc/passwd,Suspicious
+GET,/admin?id=522,Normal
+POST,/admin,Normal
+POST,/admin,Normal
+PUT,/admin,Normal
+GET,/api/data?q=../../etc/passwd,Suspicious
+DELETE,/about?id=387,Normal
+GET,/home?q=<script>alert(1)</script>,Suspicious
+GET,/login,Normal
+PUT,/admin?id=362,Normal
+POST,/api/data,Normal
+PUT,/home?id=387,Normal
+DELETE,/home?q=DROP TABLE users,Suspicious
+DELETE,/home,Normal
+POST,/api/data,Normal
+GET,/admin,Normal
+DELETE,/about,Normal
+DELETE,/api/data?q=cat /etc/passwd,Suspicious
+PUT,/home?q=' OR '1'='1,Suspicious
+DELETE,/about,Normal
+DELETE,/api/data?id=918,Normal
+PUT,/api/data?q=' OR '1'='1,Suspicious
+POST,/api/data,Normal
+PUT,/home?id=166,Normal
+POST,/admin,Normal
+POST,/about?id=16,Normal
+GET,/login,Normal
+PUT,/home,Normal
+PUT,/api/data,Normal
+POST,/api/data,Normal
+DELETE,/admin?q=' OR '1'='1,Suspicious
+POST,/home?q=DROP TABLE users,Suspicious
+POST,/api/data?q=<script>alert(1)</script>,Suspicious
+POST,/about?id=778,Normal
+PUT,/api/data,Normal
+PUT,/contact,Normal
+DELETE,/contact,Normal
+PUT,/home?q=<script>alert(1)</script>,Suspicious
+PUT,/admin?id=659,Normal
+PUT,/login,Normal
+GET,/admin?id=979,Normal
+GET,/api/data,Normal
+PUT,/api/data,Normal
+GET,/login,Normal
+POST,/api/data,Normal
+POST,/home,Normal
+PUT,/about,Normal
+POST,/about,Normal
+PUT,/admin,Normal
+PUT,/admin,Normal
+POST,/home?id=632,Normal
+DELETE,/login?id=597,Normal
+PUT,/login,Normal
+DELETE,/admin,Normal
+GET,/login?id=516,Normal
+POST,/api/data?q=cat /etc/passwd,Suspicious
+POST,/login,Normal
+GET,/home,Normal
+POST,/admin?q=../../etc/passwd,Suspicious
+GET,/home,Normal
+POST,/api/data?q=cat /etc/passwd,Suspicious
+GET,/contact?id=468,Normal
+POST,/about,Normal
+DELETE,/contact?q=cat /etc/passwd,Suspicious
+GET,/contact,Normal
+GET,/home?id=868,Normal
+POST,/login?q=cat /etc/passwd,Suspicious
+DELETE,/api/data,Normal
+PUT,/about,Normal
+POST,/admin?id=677,Normal
+GET,/login,Normal
+GET,/home?q=cat /etc/passwd,Suspicious
+GET,/api/data?id=579,Normal
+DELETE,/admin?q=<script>alert(1)</script>,Suspicious
+GET,/about?id=184,Normal
+DELETE,/about,Normal
+PUT,/contact,Normal
+DELETE,/home,Normal
+GET,/api/data,Normal
+DELETE,/home?id=3,Normal
+GET,/admin?id=335,Normal
+DELETE,/login?id=923,Normal
+DELETE,/login?id=164,Normal
+GET,/admin,Normal
+GET,/admin,Normal
+GET,/about?id=253,Normal
+DELETE,/api/data,Normal
+DELETE,/contact,Normal
+POST,/contact?id=38,Normal
+GET,/admin,Normal
+POST,/home?q=' OR '1'='1,Suspicious
+PUT,/api/data?q=<script>alert(1)</script>,Suspicious
+GET,/contact?id=962,Normal
+GET,/api/data,Normal
+PUT,/api/data?id=468,Normal
+GET,/api/data?id=633,Normal
+POST,/admin?id=706,Normal
+GET,/home,Normal
+GET,/api/data,Normal
+PUT,/login,Normal
+GET,/api/data?q=../../etc/passwd,Suspicious
+PUT,/home,Normal
+PUT,/login,Normal
+DELETE,/admin?id=51,Normal
+PUT,/about?id=593,Normal
+DELETE,/home,Normal
+GET,/home,Normal
+POST,/login,Normal
+DELETE,/admin?q=<script>alert(1)</script>,Suspicious
+PUT,/login,Normal
+PUT,/login?id=160,Normal
+POST,/home?id=691,Normal
+DELETE,/admin,Normal
+POST,/contact,Normal
+POST,/about?id=664,Normal
+DELETE,/about,Normal
+GET,/admin?q=cat /etc/passwd,Suspicious
+PUT,/contact?q=DROP TABLE users,Suspicious
+DELETE,/about?id=943,Normal
+DELETE,/api/data,Normal
+GET,/home?id=767,Normal
+POST,/contact?id=713,Normal
+DELETE,/login,Normal
+GET,/api/data?q=<script>alert(1)</script>,Suspicious
+DELETE,/about?id=572,Normal
+DELETE,/contact,Normal
+POST,/home?id=145,Normal
+GET,/contact,Normal
+PUT,/home,Normal
+GET,/home,Normal
+POST,/api/data?id=597,Normal
+GET,/api/data,Normal
+POST,/admin?q=../../etc/passwd,Suspicious
+PUT,/admin,Normal
+POST,/contact,Normal
+GET,/login,Normal
+PUT,/login?q=<script>alert(1)</script>,Suspicious
+DELETE,/login?id=557,Normal
+GET,/api/data,Normal
+DELETE,/login?q=' OR '1'='1,Suspicious
+PUT,/contact,Normal
+DELETE,/login?id=606,Normal
+GET,/home,Normal
+GET,/api/data,Normal
+DELETE,/login?q=DROP TABLE users,Suspicious
+POST,/admin?id=291,Normal
+PUT,/contact,Normal
+PUT,/home?q=DROP TABLE users,Suspicious
+GET,/login?q=cat /etc/passwd,Suspicious
+DELETE,/about?q=<script>alert(1)</script>,Suspicious
+PUT,/api/data,Normal
+DELETE,/admin?q=' OR '1'='1,Suspicious
+POST,/home,Normal
+POST,/about?id=48,Normal
+DELETE,/admin?q=' OR '1'='1,Suspicious
+POST,/admin?id=999,Normal
+GET,/about,Normal
+DELETE,/about?q=' OR '1'='1,Suspicious
+PUT,/about,Normal
+GET,/login?id=683,Normal
+GET,/login?id=597,Normal
+DELETE,/contact,Normal
+DELETE,/about,Normal
+PUT,/contact,Normal
+GET,/contact?q=DROP TABLE users,Suspicious
+POST,/login?id=21,Normal
+DELETE,/about?q=' OR '1'='1,Suspicious
+PUT,/admin?q=<script>alert(1)</script>,Suspicious
+POST,/api/data?id=424,Normal
+POST,/admin,Normal
+POST,/contact?id=492,Normal
